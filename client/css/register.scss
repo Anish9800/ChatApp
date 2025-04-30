@@ -1,0 +1,55 @@
+.registerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    .register{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        width: 300px;
+        background: teal;
+        border-radius: 5px;
+
+        .registerForm{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 5px;
+
+            input{
+                padding: 10px 20px;
+                text-align: center;
+                border: none;
+                border-bottom: 1px solid gray;
+                border-radius: 5px;
+            }
+
+            button{
+                border: none;
+                padding: 10px 20px;
+                margin-top: 30px;
+                border-radius: 5px;
+                cursor: pointer;
+                background: rgb(199, 245, 245);
+            }
+
+            .error-msg{
+                color: red;
+            }
+
+            span{
+                margin-top: 5px;
+                color: white;
+
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}
